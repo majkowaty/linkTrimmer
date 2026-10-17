@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\LinkTrimmer.Core\LinkTrimmer.Core.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
+    <AssemblyName>LinkTrimmer</AssemblyName>
+    <RootNamespace>LinkTrimmer.App</RootNamespace>
+    <Product>LinkTrimmer</Product>
+    <AssemblyTitle>LinkTrimmer</AssemblyTitle>
+    <Description>LinkTrimmer</Description>
+    <Company>LinkTrimmer</Company>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationVisualStyles>true</ApplicationVisualStyles>
+  </PropertyGroup>
+
+</Project>
